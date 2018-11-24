@@ -1,4 +1,4 @@
-# Tampere Parking Open Data Scraper @ HackJunction Helsinki 2018
+# Tampere Parking Open Data Scraper @HackJunction
 
 ### Setup
 

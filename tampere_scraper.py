@@ -61,8 +61,8 @@ def main(url, path, collection_name):
             print('Got info about {} parking lots'.format(len(parklot_by_id)))
             update_parking_lots(parklot_by_id, db.collection(collection_name))
 
-            print('Updating done, sleeping for 60 secs')
-            time.sleep(60)
+            print('Updating done, sleeping for 5 mins')
+            time.sleep(5*60)
         except Exception:
             traceback.print_exc()
 
